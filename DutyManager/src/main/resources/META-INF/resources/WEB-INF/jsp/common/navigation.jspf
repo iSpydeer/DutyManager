@@ -1,0 +1,18 @@
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/navigation.css">
+<div class="container">
+    <nav class="navbar navbar-expand mb-3 justify-content-center">
+        <a class="navbar-brand mx-2" href="/">
+            <img src="../../../brand-icon.png" class="mb-1" width="30" height="30" id="icon">
+            Duty Manager
+        </a>
+
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/create-duty">Add new Duty</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/logout">Logout</a>
+            </li>
+        </ul>
+    </nav>
+</div>
